@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="style.css" />
+  <title>HSL Colorpicker</title>
+</head>
+
+<body id="body">
+
+  <main>
+    <h1>HSL Color Picker</h1>
+    <div class="container">
+      <div class="hsl-container">
+        <div class="color-property hue">
+          <canvas class="hue-canvas">Your Browser doesn't support HTML Canvas :(</canvas>
+          <p class="value-text"><span class="hue-value">
+              200
+            </span></p>
+        </div>
+        <div class="color-property saturation">
+          <canvas class="saturation-canvas">Your Browser doesn't support HTML Canvas :(</canvas>
+          <p class="value-text">
+            <span class="saturation-value">20</span><span class="s-percent">%</span>
+          </p>
+        </div>
+
+        <div class="color-property light">
+          <canvas class="light-canvas">Your Browser doesn't support HTML Canvas :(</canvas>
+          <p class="value-text"><span class="light-value">20</span><span class="l-percent">%</span></p>
+        </div>
+      </div>
+      <div class="colorbox">
+        <p class="hsl">hsl(0,0%,0%,1)</p>
+        <p class="rgb">rgb(0,0,0)</p>
+        <p class="hex">#000000</p>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
